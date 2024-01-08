@@ -1,12 +1,14 @@
 *{
     font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif;
+margin: 0px;
+padding: 0px;
 }
 .banner {
-    margin: 0 auto;
+    margin: 41px auto;
     position: relative;
     width: 82%;
-    height: 600px;
+    height: 492px;
     border-radius: 16px;
     overflow: hidden;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -64,21 +66,24 @@ line-height: normal;
     line-height: normal;
 }
 #discount-section>img{
-    width: 802.9px;
-height: 500px;
+    width: 658px;
+    height: 410px;
+    margin: 82px auto;
 }
 
 #party-section{
     display: flex;
     justify-content: center;
     margin: 50px auto;
+    padding: 68px;
     position: relative;
     width: 82%;
-    height: 600px;
+    height: 492px;
     border-radius: 16px;
     overflow: hidden;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png') center center no-repeat;
     background-size:cover;
+    align-items: center;
  
 
 }
@@ -86,9 +91,9 @@ height: 500px;
 .party-text>h1{
     color: #FFF;
 font-family: Merriweather;
-font-size: 40px;
+font-size: 52px;
 font-style: normal;
-width: 257px;
+width: 526px;
 }
 .party-text>p{
     color: rgba(255, 255, 255, 0.80);
@@ -171,6 +176,7 @@ text-transform: uppercase;
     width: 82%;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 #portfolio>h6{
     color: #F00;
@@ -184,7 +190,75 @@ font-size: 40px;
 }
 #portfolio>p{
     color: rgba(7, 2, 17, 0.60);
-    width: 734px;
+    width: 730px;
+    margin: 0;
 font-family: Inter;
 font-size: 16px;
+}
+#portfolio>div{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+
+}
+#portfolio>div>img{
+    width: 347px;
+    height: 369px;
+    margin: 2px;
+}
+#subscribe{
+    width: 82%;
+    height: 505px;
+    border-radius: 16px;
+    margin: 140px;
+    padding: 80px 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+.subscribe-body{
+    display:block;
+    justify-content:right;
+    margin: 0 auto;
+    width: 50%;
+}
+.subscribe-body>img{
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+.subscribe-body>form{
+    width: 648px;
+    height:60px ;
+    display: flex;
+    border: none;
+    margin: 70px auto;
+}
+.subscribe-body>form>input{
+    width: 530px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+}
+.subscribe-body>form>button{
+    width: 118px;
+height: 59px;
+flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+}
+::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+text-align: left;
+padding: 25px;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
