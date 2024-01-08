@@ -72,29 +72,35 @@ font-size: 19px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 41px auto;
-    padding: 50px;
+    margin-bottom: 120px;
     border-radius: 16px;
     overflow: hidden;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png')  no-repeat;
     background-size:cover;
     background-position: center;
+    gap: 48px;
+    padding: 65px 0px;
 
 }
-
+.party-text{
+    max-width: 650px;
+}
 .party-text>h1{
     color: #FFF;
-font-family: Merriweather;
-font-size: 52px;
-font-style: normal;
-max-width: 500px;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
 }
 .party-text>p{
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
-    margin: 24px auto;
     max-width: 571px;
+    margin-bottom: 24px;
 }
 .party-text>button{
     color: #FFF;
@@ -107,9 +113,8 @@ cursor: pointer;
 }
 .party-section>img{
     display: flex;
-
-margin: 40px;
 align-items: center;
+width: 20%;
 }
 
 .location-gradient{
@@ -188,42 +193,31 @@ font-size: 16px;
     margin: 2px 2px;
 }
 .subscribe{
-    width: 82%;
-    height: 505px;
     border-radius: 16px;
-    margin: 100px;
-    padding: 80px 0px;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 0, 0, 0.05);
+    padding: 30px 0;
 }
 .subscribe-body{
-    display:block;
-    justify-content:right;
-    margin: 0 auto;
-    width: 50%;
+max-width: 600px;
+text-align: center;
+    flex-direction: column;
 }
-.subscribe-body>img{
-    margin: 0px auto;
-    display: flex;
-    justify-content: center;
-}
+
 .subscribe-body>form{
-    width: 648px;
-    height:60px ;
-    display: flex;
     border: none;
-    margin: 70px auto;
+    display: flex;
+    align-items: center;
 }
-.subscribe-body>form>input{
-    width: 530px;
+.subscribe-body>form input{
     border-radius: 50px 0px 0px 50px;
+    padding: 24px 70px;
     border: none;
 }
 .subscribe-body>form>button{
-    width: 118px;
-height: 59px;
-flex-shrink: 0;
+    padding: 20px 25px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     border: none;
@@ -232,18 +226,6 @@ text-align: center;
 font-family: Inter;
 font-size: 20px;
 }
-::placeholder{
-    color: rgba(7, 2, 17, 0.30);
-text-align: left;
-padding: 25px;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-
 .footer-section{
 
     height: 300px;
