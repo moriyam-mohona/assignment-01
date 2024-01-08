@@ -81,7 +81,7 @@ line-height: normal;
     height: 492px;
     border-radius: 16px;
     overflow: hidden;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png') center center no-repeat;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png')  no-repeat;
     background-size:cover;
     align-items: center;
  
@@ -129,8 +129,7 @@ font-size: 26px;
 line-height: 45px;
 }
 #location{
-    width: 50%;
-    max-width: 1320px;
+    width: 82%;
     height: 395px;
     
     margin: 0 auto;
@@ -167,10 +166,8 @@ border: none; color: #FFF;
 text-align: center;
 font-family: Inter;
 font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
+
+
 }
 #portfolio{
     width: 82%;
@@ -211,7 +208,7 @@ font-size: 16px;
     width: 82%;
     height: 505px;
     border-radius: 16px;
-    margin: 140px;
+    margin: 100px;
     padding: 80px 0px;
     align-items: center;
     justify-content: center;
@@ -261,4 +258,61 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+
+.footer-section{
+
+    height: 300px;
+    background: #070211;
+    padding: 120px;
+   
+}
+.footer-p1{
+    display: flex;
+    justify-content: space-between;
+}
+.text-1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    justify-content: left;
+}
+.text-2{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+display: inline;
+}
+hr{
+    margin: 50px 0;
+    background: rgba(255, 255, 255, 0.15);
+    height: 0.10px;
+
+}
+.footer-icon{
+    margin: 24px 24px 24px 24px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+.footer-p2{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-p2>p{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+justify-content: left;
+}
+.footer-p2>button{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+background:none;
+border: 0px solid #000;
+cursor: pointer;
+justify-content: right;
 }
