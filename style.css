@@ -11,13 +11,12 @@ padding: 0px;
 .banner {
     margin: 50px auto;
     position: relative;
-    width: 82%;
     height: 492px;
     border-radius: 16px;
-    overflow: hidden;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-                url('resources/Banner-Image.png') center center no-repeat;
+                url('resources/Banner-Image.png');
     background-size:cover;
+    margin-bottom: 120px;
 }
 
 .banner-text {
@@ -25,47 +24,48 @@ padding: 0px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Merriweather', serif;
 }
-.banner-text>h3{
+.banner-text>p{
 color: #FFF;
 text-align: center;
-font-family: Merriweather;
-font-size: 32px;
-font-weight: 400;
+font-size: 25px;
+margin: 10px auto;
 }
 .banner-text>h1{
 color: #FFF;
 text-align: center;
 font-family: Merriweather;
-font-size: 60px;
+font-size: 55px;
+margin: 10px auto;
 }
 .discount-section{
-    margin: 50px auto;
+    margin-bottom: 120px;
     width: 50%;
 }
 .discount-section>h1{
     color: #F00;
     text-align: center;
     font-family: Inter;
-    font-size: 72px;                       
+    font-size: 70px;  
+    margin-bottom: 30px;                     
 }
 .discount-section>p{
     color: #F00;
 text-align: center;
 font-family: Inter;
-font-size: 19px;
+font-size: 20px;
+margin-bottom: 5px;
 }
-.discount-section>h3{
+.discount-section h3{
     color: #070211;
     text-align: center;
     font-family: Inter;
-    font-size: 39px;
+    font-size: 40px;
+    margin-bottom: 30px;
 }
-.discount-section>img{
+.discount-section img{
     width: 658px;
     height: 410px;
-    margin: 60px auto;
 }
 
 .party-section{
@@ -79,46 +79,47 @@ font-size: 19px;
     background-size:cover;
     background-position: center;
     gap: 48px;
-    padding: 65px 0px;
+    padding: 68px 0px;
 
 }
 .party-text{
-    max-width: 650px;
+    max-width: 630px;
 }
-.party-text>h1{
+.party-text h1{
     color: #FFF;
     font-family: Merriweather;
-    font-size: 64px;
-    font-style: normal;
+    font-size: 50px;
     font-weight: 900;
-    line-height: 88px; /* 137.5% */
-    letter-spacing: 7.04px;
+    line-height: 60px; /* 137.5% */
+    letter-spacing: 2px;
     margin-bottom: 24px;
 }
-.party-text>p{
+.party-text p{
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 15px;
     max-width: 571px;
     margin-bottom: 24px;
 }
-.party-text>button{
+.party-text button{
     color: #FFF;
 text-align: center;
 font-family: Inter;
-font-size: 20px;
+font-size: 17px;
 background:none;
 border: 0px solid #000;
 cursor: pointer;
+margin: 10px;
 }
-.party-section>img{
+.party-section img{
     display: flex;
 align-items: center;
-width: 20%;
+width: 25%;
 }
 
 .location-gradient{
     border-radius: 16px;
+    margin-bottom: 120px;
     padding: 100px 200px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     display: flex;
@@ -126,116 +127,207 @@ justify-content: center;
 flex-direction: column;
 align-items: center;
 }
-.location-gradient>p{
+.location-gradient p{
     color: #070211;
     font-family: Inter;
-    font-size: 32px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 600;
     line-height: 56px;
-    text-transform: capitalize;
-
 }
 .text-color{
     color: #F00;
     text-align: center;
     font-family: Inter;
-    font-size: 32px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 600;
-    line-height: 56px; /* 175% */
-    text-transform: capitalize;
+    line-height: 56px;
 }
-.location-gradient>button{
-    padding: 16px 32px;
+.location-gradient button{
+    margin-top: 40px;
+    padding: 16px 25px;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;
+    border-radius:8px;
 background: #F00;
-border: none; color: #FFF;
+border: none; 
+color: #FFF;
 text-align: center;
 font-family: Inter;
 font-size: 20px;
+}
 
+.new-offer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    align-items: center;
+}
+.new-offer .p1 h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+}
+.new-offer .p1 h1{
+    color: #070211;
+font-family: Merriweather;
+font-size: 35px;
+font-weight: 900;
+margin: 10px auto;
+}
+.new-offer .p1 p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+max-width: 300px;
+}
 
+.new-offer .round-img{
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+border: 13px solid #F00;
+padding: 20px;
+
+}
+.new-offer .round-img img{
+    width: 280px;
+    height: 280px;
+}
+.new-offer .p2{
+ max-width: 276px;
+
+}
+.new-offer .p2 h1{
+    color: #F00;
+font-family: Inter;
+font-size: 30px;
+font-weight: 700;
+}
+.new-offer .p2 p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+margin: 20px auto;
+max-width: 250px;
+}
+.new-offer .p2 img{
+    width: 120px;
+    height: 120px;
 }
 .portfolio{
     justify-content: center;
     align-items: center;
+    margin-bottom: 120px;
 }
-.portfolio>h6{
+.portfolio .p1{
     color: #F00;
 font-family: Inter;
-font-size: 19.5px;
+font-size: 19px;
+
 }
 .portfolio>h4{
     color: #070211;
 font-family: Merriweather;
 font-size: 40px;
+margin: 10px auto;
 }
-.portfolio>p{
+.portfolio .p2{
     color: rgba(7, 2, 17, 0.60);
-    width: 730px;
-    margin: 0;
+    max-width: 730px;
 font-family: Inter;
 font-size: 16px;
+font-weight: 500;
+margin-bottom:20px;
 }
-.portfolio>div{
-    align-items: center;
+ .portfolio .image-container .row{
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content: space-between;
 
-}
-.portfolio>div>img{
-    width: 347px;
-    height: 369px;
-    margin: 2px 2px;
-}
+  }
+ .portfolio .image-p{
+    width: 350px;
+    height: 370px;
+    object-fit: cover; 
+    border-radius: 16px;
+    padding: 10px;
+  }
+  .portfolio .image-p:hover{
+    transform: scale(1.1); /* Increase the image size on hover */
+    transition: transform 0.3s ease;
+  }
 .subscribe{
     border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 0, 0, 0.05);
-    padding: 30px 0;
+    margin-bottom: 120px;
 }
 .subscribe-body{
 max-width: 600px;
 text-align: center;
     flex-direction: column;
+    padding: 80px;
 }
-
+.subscribe-text h2{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 22px;
+}
+.subscribe-text p{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+max-width: 870px;
+margin-bottom: 10px auto;
+}
 .subscribe-body>form{
     border: none;
     display: flex;
     align-items: center;
+    margin: 20px;
 }
 .subscribe-body>form input{
     border-radius: 50px 0px 0px 50px;
-    padding: 24px 70px;
+    padding: 20px 150px;
     border: none;
+    max-width: 640px;
 }
-.subscribe-body>form>button{
-    padding: 20px 25px;
+.subscribe-body>form button{
+    padding: 16px 25px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     border: none;
     color: #FFF;
-text-align: center;
 font-family: Inter;
-font-size: 20px;
+font-size: 15px;
 }
 .footer-section{
 
     height: 300px;
     background: #070211;
-    padding: 120px;
+    padding: 50px 120px;
    
 }
 .footer-p1{
     display: flex;
     justify-content: space-between;
+    /* padding: 80px auto; */
+    
 }
 .text-1{
     color: #FFF;
@@ -243,6 +335,8 @@ font-size: 20px;
     font-size: 15px;
     justify-content: left;
     align-items: center;
+     max-width: 300px;
+   
 }
 .text-2{
     color: #FFF;
@@ -250,11 +344,12 @@ font-family: Inter;
 font-size: 15px;
 display: inline;
 align-items: center;
+max-width: 300px;
 }
 .hr{
     margin: 50px 0;
     background: rgba(255, 255, 255, 0.05);
-    height: 0.2px;
+    /* height: 0.2px; */
 
 }
 .footer-icon{
@@ -270,6 +365,7 @@ align-items: center;
 .footer-p2{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 200px;
 }
 .footer-p2>p{
     color: #FFF;
